@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Консультант отдела бизнес-анализа",
+        "url": "https://api.hh.ru/vacancies/112541288?host=hh.ru",
+        "salary_from": 260000,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Backend-разработчик интернет магазина",
+        "url": "https://api.hh.ru/vacancies/111351086?host=hh.ru",
+        "salary_from": 200000,
+        "salary_to": 300000,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Python разработчик",
+        "url": "https://api.hh.ru/vacancies/112615359?host=hh.ru",
+        "salary_from": 180000,
+        "salary_to": 350000,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Junior Backend-разработчик",
+        "url": "https://api.hh.ru/vacancies/112509572?host=hh.ru",
+        "salary_from": 125000,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "QA Engineer",
+        "url": "https://api.hh.ru/vacancies/112318943?host=hh.ru",
+        "salary_from": 125000,
+        "salary_to": 290000,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Python-разработчик (Junior)",
+        "url": "https://api.hh.ru/vacancies/112690973?host=hh.ru",
+        "salary_from": 100000,
+        "salary_to": 120000,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Стажер - программист",
+        "url": "https://api.hh.ru/vacancies/112494402?host=hh.ru",
+        "salary_from": 60000,
+        "salary_to": 60000,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Junior+ Python разработчик, удаленно",
+        "url": "https://api.hh.ru/vacancies/112480285?host=hh.ru",
+        "salary_from": 60000,
+        "salary_to": 80000,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Junior backend-разработчик",
+        "url": "https://api.hh.ru/vacancies/112348323?host=hh.ru",
+        "salary_from": 35000,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Python-разработчик",
+        "url": "https://api.hh.ru/vacancies/112422077?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Python Developer Junior+",
+        "url": "https://api.hh.ru/vacancies/112688696?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Ведущий администратор систем мониторинга Zabbix",
+        "url": "https://api.hh.ru/vacancies/107885268?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Тестировщик",
+        "url": "https://api.hh.ru/vacancies/112523818?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Разработчик Python",
+        "url": "https://api.hh.ru/vacancies/112687371?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Data Analyst",
+        "url": "https://api.hh.ru/vacancies/111327833?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Тестировщик QA",
+        "url": "https://api.hh.ru/vacancies/112710494?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "QA инженер",
+        "url": "https://api.hh.ru/vacancies/112699386?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Data Analyst",
+        "url": "https://api.hh.ru/vacancies/112708288?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Python-разработчик",
+        "url": "https://api.hh.ru/vacancies/112551042?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    },
+    {
+        "title": "Python-разработчик (Junior, Middle)",
+        "url": "https://api.hh.ru/vacancies/112534303?host=hh.ru",
+        "salary_from": null,
+        "salary_to": null,
+        "description": "Нет описания"
+    }
+]
