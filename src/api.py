@@ -34,7 +34,6 @@ class HeadHunterAPI(JobPlatformAPI):
     """
     BASE_URL = "https://api.hh.ru/vacancies"
 
-
     def _connect_to_api(self, **kwargs) -> requests.Response:
         """
         Приватный метод подключения к API hh.ru.
@@ -51,7 +50,6 @@ class HeadHunterAPI(JobPlatformAPI):
                 )
         except requests.RequestException as e:
             raise ConnectionError(f"Ошибка соединения с API hh.ru: {e}")
-
 
     def get_vacancies(self, keyword: str, pages: int = 1) -> List[dict]:
         """

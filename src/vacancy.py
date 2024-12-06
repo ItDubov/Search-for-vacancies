@@ -1,5 +1,6 @@
 from typing import Union
 
+
 class Vacancy:
     """
     Класс для работы с вакансиями.
@@ -23,7 +24,6 @@ class Vacancy:
         self._salary_to = self._validate_salary(salary_to)
         self._description = self._validate_description(description)
 
-
     def __repr__(self):
         """
         Представление экземпляра класса.
@@ -33,7 +33,6 @@ class Vacancy:
             f"salary_from={self._salary_from}, salary_to={self._salary_to}, description='{self._description[:50]}...')"
         )
 
-
     def __eq__(self, other: "Vacancy"):
         """
         Проверка равенства вакансий по зарплате.
@@ -41,7 +40,6 @@ class Vacancy:
         if not isinstance(other, Vacancy):
             return NotImplemented
         return self.average_salary() == other.average_salary()
-
 
     def __lt__(self, other: "Vacancy"):
         if not isinstance(other, Vacancy):
@@ -56,7 +54,6 @@ class Vacancy:
             return False
         return self_salary < other_salary
 
-
     def __le__(self, other: "Vacancy"):
         if not isinstance(other, Vacancy):
             return NotImplemented
@@ -68,7 +65,6 @@ class Vacancy:
         if other_salary is None:
             return False
         return self_salary <= other_salary
-
 
     def __gt__(self, other: "Vacancy"):
         if not isinstance(other, Vacancy):
@@ -82,7 +78,6 @@ class Vacancy:
             return False
         return self_salary > other_salary
 
-
     def __ge__(self, other: "Vacancy"):
         if not isinstance(other, Vacancy):
             return NotImplemented
@@ -94,7 +89,6 @@ class Vacancy:
         if self_salary is None:
             return False
         return self_salary >= other_salary
-
 
     def average_salary(self) -> Union[float, None]:
         """

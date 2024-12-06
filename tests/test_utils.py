@@ -1,7 +1,6 @@
 import unittest
 from unittest.mock import patch
 from src.vacancy import Vacancy
-from src.file_handler import JSONFileHandler
 from src.utils import display_vacancies
 
 
@@ -15,13 +14,11 @@ class TestVacancyApp(unittest.TestCase):
         ]
         self.empty_vacancies = []
 
-
     def test_display_vacancies_empty(self):
         """Тест: вывод для пустого списка вакансий."""
         with patch('builtins.print') as mock_print:
             display_vacancies(self.empty_vacancies)
             mock_print.assert_called_with("Нет вакансий для отображения.")
-
 
     def test_display_vacancies(self):
         """Тест: корректный вывод списка вакансий."""
@@ -31,7 +28,6 @@ class TestVacancyApp(unittest.TestCase):
             mock_print.assert_any_call("1. Python Developer")
             mock_print.assert_any_call("2. Java Developer")
             mock_print.assert_any_call("3. C++ Developer")
-
 
     def test_vacancies_from_api(self):
         """Тест: преобразование данных API в объекты Vacancy."""
@@ -64,7 +60,6 @@ class TestVacancyApp(unittest.TestCase):
         self.assertEqual(vacancies[1].get_salary_to(), 170000)
         self.assertEqual(vacancies[1].get_description(), "Нет описания")
 
-
     def test_filter_vacancies_by_keywords(self):
         """Тест: фильтрация вакансий по ключевым словам."""
         keywords = ["Python", "C++"]
@@ -75,7 +70,6 @@ class TestVacancyApp(unittest.TestCase):
         self.assertEqual(len(filtered), 2)
         self.assertEqual(filtered[0].get_title(), "Python Developer")
         self.assertEqual(filtered[1].get_title(), "C++ Developer")
-
 
     def test_sort_vacancies_by_salary(self):
         """Тест: сортировка вакансий по нижней границе зарплаты."""
